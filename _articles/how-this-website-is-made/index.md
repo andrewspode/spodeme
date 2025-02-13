@@ -17,7 +17,6 @@ Below is a bunch of MarkDown that I asked Claude to generate, so that I could ea
 
 ---
 
-# Main Heading
 ## Second Level Heading
 ### Third Level Heading
 
