@@ -1,21 +1,18 @@
 ---
 ---
 
-// Colors
 $background: #0a1118;
-$text: #b8c5d9;         // Blue-tinted main text
-$header-color: #c5d5e8;  // Slightly brighter blue-tinted headers
+$text: #b8c5d9;
+$header-color: #c5d5e8;
 $primary-blue: #4b9fff;
-$text-muted: #8b9bb2;   // Blue-tinted muted text
+$text-muted: #8b9bb2;
 $code-background: darken($background, 2%);
 
-// Layout
 $sidebar-width: 200px;
 $content-max-width: 800px;
 $spacing: 1.5rem;
 $sidebar-padding: 1rem;
 
-// Base styles
 body {
   background: $background;
   color: $text;
@@ -29,7 +26,6 @@ h1, h2, h3, h4, h5, h6 {
   color: $header-color;
 }
 
-// Links
 a {
   color: $primary-blue;
   text-decoration: none;
@@ -39,7 +35,6 @@ a {
   }
 }
 
-// Mobile first layout
 .sidebar {
   background: darken($background, 3%);
   padding: $spacing * 0.75;
@@ -54,7 +49,7 @@ a {
         max-width: 140px;
         height: auto;
         margin: ($spacing * 0.25) 0;
-        display: inline-block;  // This helps with centering
+        display: inline-block;
       }
     }
   }
@@ -84,8 +79,6 @@ footer {
   font-size: 0.9em;
 }
 
-
-// Blockquotes
 blockquote {
   border-left: 3px solid $primary-blue;
   margin: $spacing 0;
@@ -94,7 +87,6 @@ blockquote {
   border-radius: 4px;
 }
 
-// Code blocks
 pre {
   background: $code-background;
   padding: $spacing;
@@ -103,20 +95,18 @@ pre {
   overflow-x: auto;
   
   code {
-    color: $text;  // Using our text variable
+    color: $text;
   }
 }
 
-// Inline code
 code {
   background: $code-background;
   padding: 2px 6px;
   border-radius: 3px;
   font-size: 0.9em;
-  color: $text;  // Using our text variable
+  color: $text;
 }
 
-// Images
 main img {
   max-width: 100%;
   height: auto;
@@ -125,50 +115,13 @@ main img {
   margin: $spacing 0;
 }
 
-// Desktop layout
-@media (min-width: 900px) {
-  body {
-    display: grid;
-    grid-template-columns: $sidebar-width 1fr;
-    grid-template-rows: 1fr auto;
-  }
-  
-  .sidebar {
-    position: fixed;
-    width: $sidebar-width;
-    height: 100vh;
-    overflow-y: auto;
-    padding: $sidebar-padding;
-
-    nav {
-      ul {
-        flex-direction: column;
-        gap: $spacing * 0.5;
-        align-items: center;  // This will center the nav items
-      }
-    }
-  }
-  
-  main {
-    grid-column: 2;
-    padding: $spacing;
-    margin-left: $spacing * 2;
-    max-width: $content-max-width;
-  }
-  
-  footer {
-    grid-column: 2;
-    margin-left: $spacing * 2;
-    max-width: $content-max-width;
-    padding: $spacing;
-  }
-}
-
-// After your existing styles, add:
-
-// Shared article styles (for both previews and full articles)
-.article-preview, article {  // This targets both
+.article-preview, article {
   margin-bottom: $spacing * 2;
+  
+  h1 {
+    margin-top: $spacing * 0.5;
+    text-align: center;
+  }
   
   h2 {
     margin-bottom: $spacing * 0.25;
@@ -187,24 +140,18 @@ main img {
     font-size: 0.9em;
     display: block;
     margin-bottom: $spacing * 0.5;
+    text-align: center;
   }
   
   .description {
     margin-top: $spacing * 0.5;
+    text-align: center;
   }
-
-  .article-separator, hr {
-    border: 0;
-    height: 1px;
-    background: rgba($text-muted, 0.2);
-    margin: $spacing 0;
-  }
-
 }
 
-// Tags
 .tags {
   margin: ($spacing * 0.5) 0;
+  text-align: center;
   
   .tag {
     display: inline-block;
@@ -213,12 +160,68 @@ main img {
     padding: 0.2em 0.8em;
     border-radius: 3px;
     font-size: 0.9em;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
+    margin: 0 0.25em 0.5em;
+    cursor: default;
     
     &:hover {
       background: rgba($primary-blue, 0.2);
-      text-decoration: none;
+    }
+  }
+}
+
+.article-separator, hr {
+  border: 0;
+  height: 1px;
+  background: rgba($text-muted, 0.2);
+  margin: $spacing 0;
+}
+
+@media (min-width: 900px) {
+  body {
+    display: grid;
+    grid-template-columns: $sidebar-width 1fr;
+    grid-template-rows: 1fr auto;
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: $sidebar-width;
+    height: 100vh;
+    overflow-y: auto;
+    padding: $sidebar-padding;
+
+    nav ul {
+      flex-direction: column;
+      gap: $spacing * 0.5;
+      align-items: center;
+    }
+  }
+  
+  main {
+    grid-column: 2;
+    padding: $spacing;
+    margin-left: $spacing * 2;
+    max-width: $content-max-width;
+  }
+  
+  footer {
+    grid-column: 2;
+    margin-left: $spacing * 2;
+    max-width: $content-max-width;
+    padding: $spacing;
+  }
+
+  article {
+    h1, time, .description {
+      text-align: left;
+    }
+  }
+
+  .tags {
+    text-align: left;
+    
+    .tag {
+      margin: 0 0.5em 0.5em 0;
     }
   }
 }
