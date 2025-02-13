@@ -1,3 +1,13 @@
 title: Spode's Abode
 theme: jekyll-theme-minimal
 logo: /assets/img/Logo-White-Background-Circle-4K-Smaller.png
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"

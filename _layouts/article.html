@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article>
+  {% if page.title %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}
+  
+  {% if page.description %}
+    <p class="description">{{ page.description }}</p>
+  {% endif %}
+
+  {% if page.date %}
+    <time>{{ page.date | date: "%B %d, %Y" }}</time>
+  {% endif %}
+
+  {% if page.tags %}
+    <div class="tags">
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <hr class="article-separator">
+
+  {{ content }}
+</article>

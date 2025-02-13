@@ -159,5 +159,66 @@ main img {
   footer {
     grid-column: 2;
     margin-left: $spacing * 2;
+    max-width: $content-max-width;
+    padding: $spacing;
+  }
+}
+
+// After your existing styles, add:
+
+// Shared article styles (for both previews and full articles)
+.article-preview, article {  // This targets both
+  margin-bottom: $spacing * 2;
+  
+  h2 {
+    margin-bottom: $spacing * 0.25;
+    
+    a {
+      color: $header-color;
+      
+      &:hover {
+        color: $primary-blue;
+      }
+    }
+  }
+  
+  time {
+    color: $text-muted;
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: $spacing * 0.5;
+  }
+  
+  .description {
+    margin-top: $spacing * 0.5;
+  }
+
+  .article-separator, hr {
+    border: 0;
+    height: 1px;
+    background: rgba($text-muted, 0.2);
+    margin: $spacing 0;
+  }
+
+}
+
+// Tags
+.tags {
+  margin: ($spacing * 0.5) 0;
+  
+  .tag {
+    display: inline-block;
+    background: rgba($primary-blue, 0.1);
+    color: $primary-blue;
+    padding: 0.2em 0.8em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    
+    &:hover {
+      background: rgba($primary-blue, 0.2);
+      text-decoration: none;
+    }
   }
 }
