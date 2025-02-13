@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <header class="sidebar">
+        <div class="site-identity">
+          <h1>
+            <a href="{{ "/" | absolute_url }}">
+              <img src="{{site.logo | relative_url}}" alt="Spode's Abode - Home" />
+            </a>
+          </h1>
+        </div>
+        
+        {% include nav.html %}
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>Copyright Andrew Spode. Not to be reproduced without prior permission.</p>
+    </footer>
+  </body>
+</html>
