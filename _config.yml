@@ -1,6 +1,7 @@
 title: Spode's Abode
 theme: jekyll-theme-minimal
 logo: /assets/img/Logo-White-Background-Circle-4K-Smaller.png
+url: http://spodeabode.com
 collections:
   articles:
     output: true

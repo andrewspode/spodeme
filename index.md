@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Welcome to Spode's Abode!
+image: /assets/img/Andrew-Spode-at-Desk.jpg
 tags: [eBay, Retro, Vintage, Electronics Repair]
 ---
 
