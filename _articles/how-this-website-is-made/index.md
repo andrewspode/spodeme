@@ -2,6 +2,7 @@
 title: How This Website is Made
 date: 2024-02-13
 description: Are you interested in how this website is built and hosted?
+image: /assets/img/Logo-White-Background-Circle-4K-Small.png
 tags: [Jekyll, GitHub Pages, MarkDown, SSG]
 ---
 
@@ -9,7 +10,7 @@ This website is hosted using GitHub pages, which is free for public repositories
 
 I didn't want to tie myself to any particular technology, and having worked with projects like Strapi in the past, I felt keeping my content stored in MarkDown would allow me the flexibility to move in a number of different directions if I felt Jekyll wasn't up to the task. Time will tell.
 
-Almost all of the code here was generated using Claude AI, under my guidance. I started with one of the default themes (minimal) and then rewrote the CSS/HTML to create a responsive design. I'm not a big fan of the left-side column approach these days, but I also wanted to tip my hat to the previous designs I had used for Spode's Abode for a little bit of nostalgia.
+Almost all the code here was generated using Claude AI, under my guidance. I started with one of the default themes (minimal) and then rewrote the CSS/HTML to create a responsive design. I'm not a big fan of the left-side column approach these days, but I also wanted to tip my hat to the previous designs I had used for Spode's Abode for a little nostalgia.
 
 The [source code](https://github.com/andrewspode/spodeme) is visible for all if you wanted to see how elegant GitHub Pages can be.
 

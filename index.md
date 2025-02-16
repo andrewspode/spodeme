@@ -7,7 +7,7 @@ tags: [eBay, Retro, Vintage, Electronics Repair]
 
 ![A tired and ill Andrew Spode at his desk.](/assets/img/Andrew-Spode-at-Desk.jpg "A tired and ill Andrew Spode at his desk.")
 
-Hi! I'm Andrew Spode. I'm a former technology journalist _(amongst other things)_ who has somehow found himself as a middle aged man, rummaging through piles of scrap looking for things worth restoring and refurbishing to sell on eBay.
+Hi! I'm Andrew Spode. I'm a former technology journalist _(amongst other things)_ who has somehow found himself as a middle-aged man, rummaging through piles of scrap looking for things worth restoring and refurbishing to sell on eBay.
 
 Almost everything I sell was destined to be chopped up with an axe and never to be seen again. I work very hard to help the growing number of people interested in retro computing and gaming. The revival of this website, is so that I can share my experience and knowledge with those that have the time and skills to do these things for themselves but don't want to pay for my help.
 
