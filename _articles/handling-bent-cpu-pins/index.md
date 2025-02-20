@@ -2,7 +2,7 @@
 title: Handling Bent CPU Pins
 date: 2024-02-14
 description: If you can't get your CPU in its socket with zero force - you likely have bent pins. Let's fix that.
-image: ./cpu-with-bent-pins.jpg
+image: /articles/handling-bent-cpu-pins/cpu-with-bent-pins.jpg
 tags: [CPU, Processor]
 ---
 
