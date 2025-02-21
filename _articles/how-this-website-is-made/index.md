@@ -1,6 +1,6 @@
 ---
 title: How This Website is Made
-date: 2024-02-13
+date: 2025-02-13
 description: Are you interested in how this website is built and hosted?
 image: /assets/img/Logo-White-Background-Circle-4K-Small.png
 tags: [Jekyll, GitHub Pages, MarkDown, SSG]
