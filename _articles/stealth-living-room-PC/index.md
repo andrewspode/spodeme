@@ -2,7 +2,7 @@
 title: Stealth Living Room PC
 date: 2025-04-02
 description: A build write-up of my gaming PC housed in a 70s speaker cabinet.
-image: /articles/stealth-living-room-pc/finished-result.jpg
+image: /articles/stealth-living-room-PC/finished-result.jpg
 tags: [Case Modding]
 ---
 
