@@ -26,7 +26,7 @@ To get to the mounting plate, I was going to have to fully dismantle the chassis
 
 Using a 5mm drill bit, I drilled out the rivets and then if needed, tapped through the remaining rivet with a screwdriver. 
 
-Once I had the final mounting plate, I needed to cut it to size. I opted for a Jigsaw but even with a fine blade designed for metal, it was extremely hard to control and kept snagging. I ended up finishing things off with a hacksaw.
+Once I had the final mounting plate, I needed to cut it to size. I opted for a jigsaw but even with a fine blade designed for metal, it was extremely hard to control and kept snagging. I ended up finishing things off with a hacksaw.
 
 ![Tray in](tray-in.jpg)
 
