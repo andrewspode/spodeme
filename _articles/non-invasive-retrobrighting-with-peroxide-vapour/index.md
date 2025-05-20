@@ -29,9 +29,13 @@ Unlike submerging directly into peroxide, this process takes days, not hours and
 
 ## The Risks
 
-I've experimented in the past with submerging items directly in peroxide and the electronic components did not react well. So arguably, even vapour *could* react with electronics. Water is also produced as part of the reaction - but this would only happen in areas where it is exposed to UV and typically the electronics are hidden.
+I've experimented in the past with submerging items directly in peroxide and the electronic components did not react well - however, I imagine being submerged in any liquid for significant time isn't ideal.
 
-*Of course, there's nothing stopping you from dismantling your item first and eliminating the risk to electronics entirely.*
+I have dismantled mice that I have treated with vapour, and you can see there is a tone difference between the inside and the outside. The vapour appears to only really affect the surfaces directly exposed to the sunlight - even though with the bottom of the mouse open, the vapour could have easily got inside.
+
+As an additional safety test, I placed a GPU with the cooler removed, which has various types of metal, directly in the chamber and fully exposed. After multiple days it looked no different to how it went in - no signs of corrosion, oxidation or other ill effects.
+
+*Of course, there's nothing stopping you from dismantling your item first and eliminating the risk to electronics entirely.* But this would mean switching the risk of treatment with the risk of damage during the dismantling process, which in itself is not negligible. 
 
 But what about the health of the plastic? Fiercely debated, some would say that any form of peroxide treatment is bad for the plastics and can make it brittle. I've not noticed this myself and the water also present in the air (from the evaporated solution, as well as from the reaction) arguably stops the plastic from drying out too much.
 
@@ -110,6 +114,8 @@ Since taking this photo I've switched to a more light-weight fan which lasts the
 ## Conclusion
 
 ![Microsoft keyboard before and after](./before-after-full.jpg)
+
+![Selection of mice before and after](./mice-before-after.jpg)
 
 With results as effective as this, I'm not sure why the vapour technique is not more popular - hopefully this article will help rectify that.
 
