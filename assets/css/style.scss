@@ -37,7 +37,7 @@ a {
 
 .sidebar {
   background: darken($background, 3%);
-  padding: $spacing * 0.75;
+  padding: ($spacing * 0.75) ($spacing * 0.75) 0;
   
   .site-identity {
     text-align: center;
@@ -48,14 +48,14 @@ a {
       img {
         max-width: 140px;
         height: auto;
-        margin: ($spacing * 0.25) 0;
+        margin: 0;
         display: inline-block;
       }
     }
   }
   
   nav {
-    margin-top: $spacing * 0.5;
+    margin-top: $spacing * 0.25;
     ul {
       list-style: none;
       padding: 0;
@@ -69,11 +69,11 @@ a {
 }
 
 main {
-  padding: $spacing * 0.75;
+  padding: 0 ($spacing * 0.75) ($spacing * 0.5);
 }
 
 footer {
-  padding: $spacing;
+  padding: 0;
   text-align: center;
   color: $text-muted;
   font-size: 0.9em;
@@ -116,7 +116,7 @@ main img {
 }
 
 article {
-  margin-bottom: $spacing * 2;
+  margin-bottom: 0;
   
   h1 {
     margin-top: $spacing * 0.5;
@@ -217,7 +217,7 @@ article {
     width: $sidebar-width;
     height: 100vh;
     overflow-y: auto;
-    padding: $sidebar-padding;
+    padding: $spacing $sidebar-padding 0;
 
     nav ul {
       flex-direction: column;
@@ -228,7 +228,7 @@ article {
   
   main {
     grid-column: 2;
-    padding: $spacing;
+    padding: 0 $spacing ($spacing * 0.5);
     margin-left: $spacing * 2;
     max-width: $content-max-width;
   }
@@ -237,7 +237,7 @@ article {
     grid-column: 2;
     margin-left: $spacing * 2;
     max-width: $content-max-width;
-    padding: $spacing;
+    padding: 0;
   }
 
   article {
