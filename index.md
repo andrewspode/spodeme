@@ -5,7 +5,7 @@ image: /assets/img/Andrew-Spode-at-Desk.jpg
 tags: [eBay, Retro, Vintage, Electronics Repair]
 ---
 
-![A tired and ill Andrew Spode at his desk.](/assets/img/Andrew-Spode-at-Desk.jpg "A tired and ill Andrew Spode at his desk.")
+![Andrew Spode proving that the only thing worse than his taste in shirts, is his ability to say no when someone offers him an SSD.](/assets/img/Andrew-Spode-at-Desk.jpg "Andrew Spode proving that the only thing worse than his taste in shirts, is his ability to say no when someone offers him an SSD.")
 
 Hi! I'm Andrew Spode. ~1999-2009, I was a technology journalist who specialised in testing and evaluating computer components. Now, as a middle-aged man, things have gone full circle as I find myself rummaging through piles of scrap looking for the same items, so I can refurbish them for [sale on eBay](/shop) to support the retro gaming community.
 
