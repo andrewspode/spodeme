@@ -12,5 +12,8 @@ defaults:
       type: "articles"
     values:
       layout: "article"
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
 include:
   - _next
