@@ -6,12 +6,12 @@ title: Articles
 {% for article in site.articles reversed %}
   <div class="article-preview">
     {% if article.image %}
-      <a href="{{ article.url | remove: '/index' }}">
+      <a href="{{ article.url }}">
         <img src="{{ article.image }}" alt="{{ article.title }}" class="article-thumbnail">
       </a>
     {% endif %}
     <div class="article-content">
-      <h2><a href="{{ article.url | remove: '/index' }}">{{ article.title }}</a></h2>
+      <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
     <time datetime="{{ article.date | date_to_xmlschema }}">
       {{ article.date | date: "%B %d, %Y" }}
     </time>
