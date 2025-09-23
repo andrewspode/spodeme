@@ -7,10 +7,18 @@ collections:
   articles:
     output: true
     permalink: /articles/:path
+  games:
+    output: true
+    permalink: /games/:path
 defaults:
   - scope:
       path: ""
       type: "articles"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "games"
     values:
       layout: "article"
 plugins:
