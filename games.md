@@ -14,12 +14,12 @@ title: Games
     <div class="article-content">
       <h2><a href="{{ game.url }}">{{ game.title }}</a></h2>
 
-    {% if game.platform %}
-      <p><strong>Platform:</strong> {{ game.platform }}</p>
-    {% endif %}
-
-    {% if game.status %}
-      <p><strong>Status:</strong> {{ game.status }}</p>
+    {% if game.tags %}
+      <div class="tags">
+        {% for tag in game.tags %}
+          <a class="tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
     {% endif %}
 
     {% if game.description %}
