@@ -37,32 +37,35 @@ a {
 
 .sidebar {
   background: darken($background, 3%);
-  padding: ($spacing * 0.75) ($spacing * 0.75) 0;
-  
+  padding: ($spacing * 0.75) ($spacing * 0.75) ($spacing * 0.75);
+  display: flex;
+  align-items: center;
+  gap: $spacing;
+
   .site-identity {
-    text-align: center;
-    
+    flex-shrink: 0;
+
     h1 {
       margin: 0;
-      
+
       img {
-        max-width: 140px;
+        max-width: 80px;
         height: auto;
         margin: 0;
-        display: inline-block;
+        display: block;
       }
     }
   }
-  
+
   nav {
-    margin-top: $spacing * 0.25;
+    flex: 1;
     ul {
       list-style: none;
-      padding: 0;
+      padding: 0 ($spacing * 2) 0 0;
       margin: 0;
       display: flex;
-      gap: $spacing;
-      justify-content: center;
+      gap: $spacing * 0.75;
+      justify-content: flex-start;
       flex-wrap: wrap;
     }
   }
@@ -117,23 +120,24 @@ main img {
 
 article {
   margin-bottom: 0;
-  
+
   h1 {
     margin-top: $spacing * 0.5;
-    text-align: center;
+    padding-bottom: $spacing * 0.5;
+    text-align: left;
   }
-  
+
   time {
     color: $text-muted;
     font-size: 0.9em;
     display: block;
     margin-bottom: $spacing * 0.5;
-    text-align: center;
+    text-align: left;
   }
-  
+
   .description {
     margin-top: $spacing * 0.5;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -180,8 +184,8 @@ article {
 
 .tags {
   margin: ($spacing * 0.5) 0;
-  text-align: center;
-  
+  text-align: left;
+
   .tag {
     display: inline-block;
     background: rgba($primary-blue, 0.1);
@@ -189,9 +193,9 @@ article {
     padding: 0.2em 0.8em;
     border-radius: 3px;
     font-size: 0.9em;
-    margin: 0 0.25em 0.5em;
+    margin: 0 0.5em 0.5em 0;
     cursor: default;
-    
+
     &:hover {
       background: rgba($primary-blue, 0.2);
     }
@@ -218,11 +222,27 @@ article {
     height: 100vh;
     overflow-y: auto;
     padding: $spacing $sidebar-padding 0;
+    display: block;
 
-    nav ul {
-      flex-direction: column;
-      gap: $spacing * 0.5;
-      align-items: center;
+    .site-identity {
+      text-align: center;
+
+      h1 img {
+        max-width: 140px;
+        margin: 0 auto;
+      }
+    }
+
+    nav {
+      margin-top: $spacing * 0.75;
+
+      ul {
+        flex-direction: column;
+        gap: $spacing * 0.5;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+      }
     }
   }
   
@@ -243,14 +263,6 @@ article {
   article {
     h1, time, .description {
       text-align: left;
-    }
-  }
-
-  .tags {
-    text-align: left;
-    
-    .tag {
-      margin: 0 0.5em 0.5em 0;
     }
   }
 
