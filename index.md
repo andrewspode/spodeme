@@ -22,6 +22,6 @@ As a teenager, Spode's Abode was run out of my bedroom, but I quickly found myse
 
 I cut my teeth at Computer Shopper, the highest selling computer magazine in the UK, before writing for many other titles such as Custom PC _(where I also wrote their benchmark suite, aptly dubbed "SpodeMark")_, The Inquirer _(where I had a regular column)_ and TrustedReviews, where I was Technical Editor in 2006.
 
-I was incredibly fortunate to be in the midst of an incredibly exciting period of computing as the first GPUs made their way to the market and shaped what we see today.
+I was extremely fortunate to be in the midst of an incredibly exciting period of computing as the first GPUs made their way to the market and shaped what we see today.
 
 There's not much to be found of my technology journalism days online anymore, as when I moved my career forward I spent quite some time having content or bylines removed due to the confusion it was causing. I still have some backups of the original site, but for now, that's where they will stay...
