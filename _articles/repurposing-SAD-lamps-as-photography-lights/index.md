@@ -107,7 +107,7 @@ SAD lamps are designed to run for up to an hour at a time, so they handle always
 With two lamps modified and mounted on mobile phone arms, I have a flexible two-light setup that I can reposition freely to control shadows and reduce glare. Both come on the moment I switch the mains, at full brightness, with consistent colour temperature across the whole panel.
 
 ![Two SAD lamps on mobile phone arms around a photo backdrop](./lights-on-mobile-phone-arms.jpg)
-*The backdrop is just a cut-off from a white blackout blind held on with magnets to the desk. Easy to pack away.*
+*I use white blackout blinds as backdrops as they are cheap, you can roll them up when not needed and trim them as they get damaged.*
 
 The proof is in the results - at this point I feel the limiting factor is my phone camera, not the light.
 
