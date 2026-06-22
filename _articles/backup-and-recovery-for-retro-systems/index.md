@@ -1,4 +1,5 @@
 ---
+permalink: /articles/backup-and-recovery-for-retro-systems/
 title: Backup and Recovery for Retro Systems
 date: 2025-07-30
 description: Skip the reinstall headache - backup and restore your retro systems quickly.

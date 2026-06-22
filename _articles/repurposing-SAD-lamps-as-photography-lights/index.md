@@ -1,4 +1,5 @@
 ---
+permalink: /articles/repurposing-SAD-lamps-as-photography-lights/
 title: Repurposing SAD Lamps as Photography Lights
 date: 2026-02-25
 description: SAD lamps outperform most budget photography LED panels for brightness and colour purity. This article covers why, and how to remove the built-in timer using a technique that transfers to many similar devices.

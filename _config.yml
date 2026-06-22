@@ -10,6 +10,9 @@ collections:
   games:
     output: true
     permalink: /games/:path
+  software:
+    output: true
+    permalink: /software/:path
 defaults:
   - scope:
       path: ""
@@ -19,6 +22,11 @@ defaults:
   - scope:
       path: ""
       type: "games"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "software"
     values:
       layout: "article"
 plugins:

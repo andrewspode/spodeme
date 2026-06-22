@@ -1,4 +1,5 @@
 ---
+permalink: /articles/how-this-website-is-made/
 title: How This Website is Made
 date: 2025-02-13
 description: Are you interested in how this website is built and hosted?

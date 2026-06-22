@@ -2,9 +2,12 @@
 title: Questle
 description: Daily mindful side quests that'll make you say 'what?'
 date: 2026-02-07
+permalink: /games/questle/
 image: /games/questle/logo.png
 tags: [Web Game, Mindfulness, Daily Game, PWA, Indie, Casual]
 ---
+
+![Questle](logo-article.png)
 
 Questle started as an experiment. Instead of the usual "hey, I have this great idea, let's build it" approach, my friend [Jack](https://jpb.dev) and I sat down with a completely blank slate and had a brainstorming session, using our preferred AI (Claude) as a mediator and catalyst. 
 

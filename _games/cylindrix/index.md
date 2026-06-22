@@ -2,6 +2,7 @@
 title: Cylindrix
 description: Retro 360° 3D block puzzle inside a spinning cylinder with synthwave music!
 date: 2025-10-06
+permalink: /games/cylindrix/
 image: /games/cylindrix/gameplay.png
 tags: [Puzzle Game, Block Game, Android, 3D, Retro, Synthwave, Arcade, Indie]
 ---

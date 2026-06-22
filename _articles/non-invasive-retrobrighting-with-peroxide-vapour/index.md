@@ -1,4 +1,5 @@
 ---
+permalink: /articles/non-invasive-retrobrighting-with-peroxide-vapour/
 title: Non-invasive Retrobrighting with Peroxide Vapour
 date: 2025-05-15
 description: If you want a simple, effective method for retrobrighting without dissassembly, this is for you!
