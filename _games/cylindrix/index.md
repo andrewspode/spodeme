@@ -7,7 +7,7 @@ image: /games/cylindrix/gameplay.png
 tags: [Puzzle Game, Block Game, Android, 3D, Retro, Synthwave, Arcade, Indie]
 ---
 
-This is my first proper attempt at making and publishing a mobile game. Originally my idea was to have this as a VR game and I started casually prototyping the concept using Claude AI and quickly realised it would work on mobile. After some time and effort, it's now [available to play on Google Play](https://play.google.com/store/apps/details?id=com.spodesabode.cylindrix).
+This is my first proper attempt at making and publishing a mobile game. Originally my idea was to have this as a VR game and I started casually prototyping the concept using Claude AI and quickly realised it would work on mobile. After some time and effort, it's now available on [Google Play](https://play.google.com/store/apps/details?id=com.spodesabode.cylindrix) and as a [free web version](https://cylindrixgame.vercel.app/) for iPhone, Android, and PC.
 
 ![Menu Screen](menu.png)
 
