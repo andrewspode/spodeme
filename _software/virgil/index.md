@@ -1,10 +1,10 @@
 ---
 title: Virgil
-description: A journalling companion built on Claude Code, designed for long-running conversations that accumulate context over months and years.
+description: A journalling companion built on Claude Code, designed for long-running conversations that efficiently accumulate context over months and years.
 date: 2026-04-09
 permalink: /software/virgil/
 image: /software/virgil/virgil.png
-tags: [AI, Journalling, Claude Code, Python, Open Source]
+tags: [AI, Journalling, Claude Code, Therapy, Open Source]
 ---
 
 ![Virgil](virgil.png)
