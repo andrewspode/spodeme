@@ -33,7 +33,7 @@ I'm really happy with the outcome for my first game, and it's going to be an int
 
 Currently available on [Google Play](https://play.google.com/store/apps/details?id=com.spodesabode.cylindrix). The game supports keyboard and mouse controls as well as touch, so it should also work on PC through Google Play Games.
 
-An iPhone release will depend on how popular it is on Android.
+**Update:** An iPhone release would require Apple developer licences and a Mac to build - not something I'm ready to invest in yet. As an alternative, I've released a [free web version](https://cylindrixgame.vercel.app/) that runs on iPhone, Android, and PC. It's completely free with no option to pay, so the occasional nag screens are just part of the deal - but if you just want to try the game, it works well. It's been tested in Chrome, so that's your best bet.
 
 ## About the Game
 
