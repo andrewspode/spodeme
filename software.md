@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Games & Software
+permalink: /software/
 ---
 
 {% assign all_projects = site.games %}

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Articles
+permalink: /articles/
 ---
 
 {% for article in site.articles reversed %}
