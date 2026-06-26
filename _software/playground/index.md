@@ -19,7 +19,7 @@ Rather than an app, it's just a **shareable URL** for simplicity and compatibili
 
 On Android, and presumably on iPhone these days - you can simply "pin" it to prevent them using your phone or tablet for something else and safely give it to them.
 
-For now, I have five activities - but as my daughter grows, so will this collection.
+As my daughter grows, so will this collection.
 
 ## Designed for little hands
 
@@ -78,6 +78,16 @@ The classic memory card game - flip cards over, try to remember where things wer
 There's a second twist that makes this considerably harder than the usual version. One card shows a number - its match shows that many animals. To make a pair you have to count the animals first. Memory and arithmetic at the same time.
 
 The game scales up to 9 pairs - 18 cards scattered across the table at once - which is genuinely tricky even for adults. For younger children who can't count yet, the hint button finds a match for them - which means they still get the enjoyment of flipping cards and seeing animals paired with numbers, with a grown-up alongside to talk through the counting. It works best as a guided activity for the little ones, and as a genuine challenge once they're ready to go it alone.
+
+### Maze
+
+![Maze](maze.png)
+
+This one was inspired by a cheap kids camera I picked up. It came with games installed, and the maze stuck out - it was teaching my daughter to navigate a character using left, right, up, and down. Good concept, but the difficulty never changed and the levels were fixed. Once you'd done them, that was it.
+
+Mine generates the mazes randomly, so there's always something new, and you can choose from different difficulty levels depending on what your child is ready for. You can also pick which character you want to guide through the maze - or leave it to chance.
+
+As with the other games, there's a hint button - pressing it briefly reveals the correct path and nudges the character one step in the right direction. For children who really struggle, they can just keep pressing it and watch the character find its way home. It still develops something useful - they're watching the route, following the logic, building an understanding of the space even if they're not driving yet.
 
 ### Pie Sort
 
