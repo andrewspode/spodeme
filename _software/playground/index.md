@@ -101,4 +101,14 @@ I simplified it so no plate ever has more than two colours, keeping the focus on
 
 Tucked alongside the puzzle is a small running count: how many of each colour pie you've collected and the total. In the screenshot you can see 1 pink + 1 yellow = 2, working toward a total of 3. It's not part of the core mechanic - you can completely ignore it and just match pies - but the exposure to simple addition is there for children who are ready to notice it.
 
+### Farmer's Orders
+
+![Farmer's Orders](farmers-orders.png)
+
+Every activity here follows the same rule: it should feel like play, not school - even if learning still needs the same repetition it always has. The child shouldn't be able to tell the difference between doing the "work" and having the fun. That's straightforward with something like colour-matching, where the lesson barely needs disguising. Times tables are harder, because the usual way of teaching them - flashcards, worksheets, reciting them back - feels exactly like school, no matter how you dress it up. This was my attempt to get the repetition in without it ever feeling like that.
+
+A farmer tells you what they need - "16 peas please!" - and you shape a field of rows and columns to match, then get to water it, watch the crop grow, and see it harvested. The multiplication is still happening every single time, but it's in service of the field and the harvest, not the other way around.
+
+This one's ahead of where my daughter's at, but a few friends with older kids asked for something like it, so I built it early rather than waiting.
+
 [Launch Spode's Playground](https://spodesplayground.vercel.app/)
