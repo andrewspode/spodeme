@@ -22,6 +22,17 @@ layout: default
     </div>
   {% endif %}
 
+  {% if page.youtube %}
+    {% if page.youtube contains "youtu.be/" %}
+      {% assign youtube_id = page.youtube | split: "youtu.be/" | last | split: "?" | first %}
+    {% elsif page.youtube contains "v=" %}
+      {% assign youtube_id = page.youtube | split: "v=" | last | split: "&" | first %}
+    {% else %}
+      {% assign youtube_id = page.youtube %}
+    {% endif %}
+    {% include youtube.html id=youtube_id %}
+  {% endif %}
+
   <hr class="article-separator">
 
   {{ content }}
