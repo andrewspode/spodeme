@@ -9,9 +9,11 @@ tags: [Web Game, Mindfulness, Daily Game, PWA, Indie, Casual]
 
 ![Questle](logo-article.png)
 
-Questle started as an experiment. Instead of the usual "hey, I have this great idea, let's build it" approach, my friend [Jack](https://jpb.dev) and I sat down with a completely blank slate and had a brainstorming session, using our preferred AI (Claude) as a mediator and catalyst. 
+In most cases, I have an idea first and then I build it - but Questle came about in a different way entirely. My good friend [Jack](https://jpb.dev) and I sat down with a completely blank slate and had a brainstorming session, using our preferred AI (Claude) as a mediator and catalyst to bounce ideas around.
 
-Our starting point was extremely loose - "something to make you look forward to Monday morning". We came up with some truly awful ideas _(no bad ideas, right?)_ but eventually we got our core concept down. Then we prototyped and iterated until after a few evenings we ended up here with our fairly polished [Questle](https://questle.app).
+Our starting point was extremely loose - "something to make you look forward to Monday mornings". We came up with some truly awful ideas _(no bad ideas, right?)_ but eventually we got our core concept down. Then we prototyped and iterated until after a few evenings we ended up here with our fairly polished [Questle](https://questle.app)!
+
+We both enjoy using it, and that was really our only goal. Maybe you will too?
 
 ![How to Play](how-to-play.png)
 
@@ -28,3 +30,7 @@ The whole thing runs as a lightweight responsive PWA - no frameworks, just ordin
 ## Where to Play
 
 Play it now at [questle.app](https://questle.app). It works on any device with a browser and can be installed as an app on your phone. It's free!
+
+---
+
+_A small acknowledgement: several months after we launched, a very similar project, also called Questle, was released - great minds think alike, as they say. When we got in touch with Vincent, he graciously rebranded his project and you can now find his work at [Guwa](https://guwa.app/)!_
