@@ -11,9 +11,9 @@ Hi! I'm Andrew Spode. I spent nearly a decade as a technology journalist special
 
 It therefore felt fitting to revive this website and the Spode's Abode brand, so that I can share my experiences and knowledge with those that might need it, and help archive what I can before it is lost forever.
 
-As such, I regularly contribute photography and BIOS dumps to [TheRetroWeb](https://www.google.com/search?q=TheRetroWeb+Andrew+Spode&tbm=isch) and CD/Floppy images to [archive.org](https://archive.org/details/@andrewspode).
+I regularly contribute photography and BIOS dumps to [TheRetroWeb](https://www.google.com/search?q=TheRetroWeb+Andrew+Spode&tbm=isch) and CD/Floppy images to [archive.org](https://archive.org/details/@andrewspode). You'll find me volunteering at the [Gravesham Repair Cafe](https://graveshamrepaircafe.blogspot.com/).
 
-I'm also known for my time as a [mountain bike trials rider](https://www.youtube.com/thinkbikes), a [software engineer](http://linkedin.com/in/spode), and a singer, with my most popular song unfortunately being "[Fluffy Little Dog](https://www.youtube.com/watch?v=4fyFzmdLZp0)" with over 30 million streams. However, I won't be focussing on these topics here.
+I'm also known for my time as a [mountain bike trials rider](https://www.youtube.com/thinkbikes), a [software engineer](http://linkedin.com/in/spode), and [a singer](/music/), with my most popular song being "[Fluffy Little Dog](/music/badly-parked-sedona-fluffy-little-dog/)" with over 30 million streams. 
 
 ![Andrew Spode testing graphics cards around 2004 for Computer Shopper Magazine.](/assets/img/Andrew-Spode-Computer-Shopper.jpg "Andrew Spode testing graphics cards around 2004 for Computer Shopper Magazine.")
 *Me testing graphics cards around 2004 for Computer Shopper Magazine.*
