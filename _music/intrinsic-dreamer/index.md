@@ -43,14 +43,13 @@ When I try to talk, I feel so tongue tied.
 
 I made this world, to do you no harm  
 I made this world, to find the girl  
-But in reality. 
-I'm just a dreamer  
+But in reality, I'm just a dreamer  
 I'm just a dreamer  
 I'm just a dreamer  
 
-Make believe
-In my dreams
-Come with me
+Make believe  
+In my dreams  
+Come with me  
 
 Take me back, come on let me dream  
 In my private world, of make believe  

@@ -11,7 +11,7 @@ next_track:
   url: /music/intrinsic-intro/
 ---
 
-Kittens in the Snow was particularly popular with my eldest sister's children, which I didn't believe until she sent me a video them singing it, seemingly knowing all the words by heart.
+Kittens In the Snow was particularly popular with my eldest sister's children, which I didn't believe until she sent me a video them singing it, seemingly knowing all the words by heart.
 
 So I wrote this song specifically for them, semi-hiding their names into the lyrics. "Her name was Katie and she smelled like a rose" (Katie Rose) "and a bell was attached" (Annabel).
 
@@ -27,7 +27,7 @@ I was never very happy with the song, so after release I simply forgot about it.
 
 You'd think therefore, that I would have made some decent money - but as you can see - barely anything. 
 
-Much of the use of the song has been on TikTok, where people used it in the background of videos of their dogs and TikTok, rather than paying per stream - pay per video. From memory, it was around 10,000 videos that used the song and I got a fixed fee per video. A video streamed once earned the same as one streamed a million times. I believe ~100,000 streams on Spotify made more money than the total of all TikTok use, despite the magnitudes in difference.
+Much of the use of the song has been on TikTok, where people used it in the background of videos of their dogs. TikTok, rather than paying per stream - pay per video. From memory, it was around 10,000 videos that used the song and I got a fixed fee per video. A video streamed once earned the same as one streamed a million times. I believe ~100,000 streams on Spotify made more money than the total of all TikTok use, despite the magnitudes in difference.
 
 Additionally, many people simply downloaded the video once they had made it, hosting it on other platforms to use as an advert for their dog grooming businesses, bypassing the royalties altogether.
 
