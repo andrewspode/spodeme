@@ -3,6 +3,12 @@ title: Fluffy Little Dog
 artist: Badly Parked Sedona
 tags: [Music, Badly Parked Sedona]
 youtube: https://www.youtube.com/watch?v=4fyFzmdLZp0
+prev_track:
+  title: Kittens In the Snow
+  url: /music/badly-parked-sedona-kittens-in-the-snow/
+next_track:
+  title: Intro
+  url: /music/intrinsic-intro/
 ---
 
 Kittens in the Snow was particularly popular with my eldest sister's children, which I didn't believe until she sent me a video them singing it, seemingly knowing all the words by heart.

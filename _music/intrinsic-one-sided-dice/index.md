@@ -1,14 +1,20 @@
 ---
-title: One Sided Dice
+title: One Sided Dice (Live)
 artist: Intrinsic
 album: The Cold Awakening
 year: 2003
 track_number: 7
 tags: [Music, Intrinsic]
 youtube: https://www.youtube.com/watch?v=XxUlmwbvBpk
+prev_track:
+  title: Light At the End of the Tunnel
+  url: /music/intrinsic-light-at-the-end-of-the-tunnel/
+next_track:
+  title: Helping Hand (Demo)
+  url: /music/intrinsic-helping-hand/
 ---
 
-This was recorded at one of my last performances with Intrinsic. It was not a complete song - when Nick took the vocals over from me, he added extra lyrics and much improved it.
+This was recorded at one of my last performances with Intrinsic. It was not a finished song - when Nick took the vocals over from me, he added extra lyrics and much improved it.
 
 However, it wasn't a bad recording and I thought it would make for a good bonus track when I released the EP online and was not included on the original pressed version.
 

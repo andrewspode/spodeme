@@ -1,17 +1,22 @@
 ---
-title: Helping Hand
+title: Helping Hand (Demo)
 artist: Intrinsic
 album: The Cold Awakening
 year: 2003
 track_number: 8
 tags: [Music, Intrinsic]
 youtube: https://www.youtube.com/watch?v=_zgSqO7va8Q
+prev_track:
+  title: One Sided Dice (Live)
+  url: /music/intrinsic-one-sided-dice/
+next_track:
+  title: Unfinished Business (Demo)
+  url: /music/intrinsic-unfinished-business/
 ---
 
-Richard wrote this song entirely and brought it to practice - lyrics, vocal melody, the lot. I seem to remember having to change the melody slightly and some of the words, ultimately this was all him.
+Richard wrote this song entirely and brought it to practice - lyrics, vocal melody, the lot. It was a departure from the usual way we had worked on songs up to this point.
 
 I never got to perform this live - so this recording came from one of our practice sessions and it felt good enough to include as a demo track when I released the EP online.
-
 
 ## Lyrics
 

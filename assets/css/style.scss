@@ -288,6 +288,21 @@ article {
 /* Image Captions */
 img + em { margin-top:-1.5rem; display:block; }
 
+.track-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: $spacing;
+  margin-bottom: $spacing;
+
+  .prev, .next {
+    flex: 1;
+  }
+
+  .next {
+    text-align: right;
+  }
+}
+
 .youtube-embed {
   position: relative;
   width: 100%;

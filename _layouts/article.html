@@ -33,6 +33,17 @@ layout: default
     {% include youtube.html id=youtube_id %}
   {% endif %}
 
+  {% if page.prev_track or page.next_track %}
+    <nav class="track-nav">
+      {% if page.prev_track %}
+        <a href="{{ page.prev_track.url }}" class="prev">&larr; {{ page.prev_track.title }}</a>
+      {% endif %}
+      {% if page.next_track %}
+        <a href="{{ page.next_track.url }}" class="next">{{ page.next_track.title }} &rarr;</a>
+      {% endif %}
+    </nav>
+  {% endif %}
+
   <hr class="article-separator">
 
   {{ content }}

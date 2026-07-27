@@ -6,9 +6,15 @@ year: 2003
 track_number: 6
 tags: [Music, Intrinsic]
 youtube: https://www.youtube.com/watch?v=jrwDD_YyE0o
+prev_track:
+  title: Afterthought
+  url: /music/intrinsic-afterthought/
+next_track:
+  title: One Sided Dice (Live)
+  url: /music/intrinsic-one-sided-dice/
 ---
 
-This was by far one of my favourite songs to perform - something about the last section (perpetual rain...) would put the hairs on the back of my neck on end.
+This was by far one of my favourite songs to perform - something about the last section (perpetual rain...) would put the hairs on the back of my neck on end. It was also one of the hardest for me - singing "no" on an A4 was particularly challenging.
 
 I just wish we had made a "radio edit" version without the self-indulgent guitar solo battle. Sorry guys.
 

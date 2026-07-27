@@ -3,6 +3,9 @@ title: Kittens In the Snow
 artist: Badly Parked Sedona
 youtube: https://www.youtube.com/watch?v=ODC2xNMwc4k
 tags: [Music, Badly Parked Sedona]
+next_track:
+  title: Fluffy Little Dog
+  url: /music/badly-parked-sedona-fluffy-little-dog/
 ---
 
 I first released this track on December 9th 2012 - it had started to become a traditional time for me to release new songs, in time for Christmas.

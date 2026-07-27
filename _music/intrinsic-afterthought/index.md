@@ -6,11 +6,17 @@ year: 2003
 track_number: 5
 tags: [Music, Intrinsic]
 youtube: https://www.youtube.com/watch?v=X_PCsyg_jG0
+prev_track:
+  title: Dreamer
+  url: /music/intrinsic-dreamer/
+next_track:
+  title: Light At the End of the Tunnel
+  url: /music/intrinsic-light-at-the-end-of-the-tunnel/
 ---
 
 This track was universally hated by the members of the band, and yet, to our surprise (and dismay) was often people's favourite track.
 
-I think the lyrics were a large reason why we hated it - by the final verse I think I had just given up trying to come up with anything with metaphor and the clumsy "you can find them on the internet, or even in a book" line was frequently mocked.
+I think the lyrics were a large reason why we hated it - by the final verse I think I had just given up trying to come up with anything with metaphor and the clumsy "you can find them on the internet, or even in a book" line was frequently mocked (and rightly so).
 
 ## Lyrics
 

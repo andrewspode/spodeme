@@ -6,9 +6,15 @@ year: 2003
 track_number: 3
 tags: [Music, Intrinsic]
 youtube: https://www.youtube.com/watch?v=7JLVJbL8M6c
+prev_track:
+  title: Losing Away
+  url: /music/intrinsic-losing-away/
+next_track:
+  title: Dreamer
+  url: /music/intrinsic-dreamer/
 ---
 
-This was actually the first song we performed as a band, at an open mic night. We had waited all night to get on stage, but they had a deadline cut-off due to sound restrictions so by the time we got on, we only had time for one song and this was it. It was well received.
+This was actually the first song we performed as a band, at an open mic night. We were last to go on and they had a deadline cut-off due to noise restrictions at the venue, so by the time we got on, we only had time for one song and this was it. It was well received.
 
 I think there's clear Van Halen influence coming in on this song from Richard's piano work - to the point where several people thought it was a cover!
 
