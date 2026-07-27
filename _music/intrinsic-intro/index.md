@@ -8,10 +8,5 @@ tags: [Music, Intrinsic]
 youtube: https://www.youtube.com/watch?v=YjGve657Rd4
 ---
 
-_Placeholder: background/reasoning for this track._
+There's not a lot to be said about this track, as I wasn't really involved in the creation (no vocals) but it set the mood nicely for the EP.
 
-## Lyrics
-
-```
-Placeholder lyrics.
-```

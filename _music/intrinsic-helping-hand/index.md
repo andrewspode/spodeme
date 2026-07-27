@@ -8,10 +8,46 @@ tags: [Music, Intrinsic]
 youtube: https://www.youtube.com/watch?v=_zgSqO7va8Q
 ---
 
-_Placeholder: background/reasoning for this track._
+Richard wrote this song entirely and brought it to practice - lyrics, vocal melody, the lot. I seem to remember having to change the melody slightly and some of the words, ultimately this was all him.
+
+I never got to perform this live - so this recording came from one of our practice sessions and it felt good enough to include as a demo track when I released the EP online.
+
 
 ## Lyrics
 
-```
-Placeholder lyrics.
-```
+A helping hand's always so far away  
+And yet, thought to be so near  
+A chance to shine is a chance to fail  
+It's accepted around here  
+
+You focus on your good points  
+Ignore your limitations  
+But how can I improve  
+If I gloat in my perfection?  
+Great things lead to greater things  
+But it works the other way  
+You take your opportunities  
+Losing pride and dignity  
+
+I just need a helping hand  
+
+Pushed and pulled, constantly run down  
+In each and every way  
+All you have are empty goals  
+And nobody to blame but yourself  
+
+You focus on your good points  
+Ignore your limitations  
+But how can I improve  
+If I gloat in my perfection?  
+Great things lead to greater things  
+But it works the other way  
+You take your opportunities  
+Losing pride and dignity  
+
+They won't let me speak my own words  
+I need somebody here to show me  
+How to stand on my two feet again  
+Where must I go to live my life  
+I just need a helping hand  
+I just need a helping hand  

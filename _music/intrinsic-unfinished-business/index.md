@@ -8,10 +8,7 @@ tags: [Music, Intrinsic]
 youtube: https://www.youtube.com/watch?v=34Mr-eNXnak
 ---
 
-_Placeholder: background/reasoning for this track._
+Nobody in the band had any memory of this song even existing, but I found it amongst some recordings at one of our practices and I liked it. So I gave it a name and threw it on the end of the online EP release as a bonus demo track.
 
-## Lyrics
+Personally, I can hear some Red Hot Chili Peppers influence in there.
 
-```
-Placeholder lyrics.
-```

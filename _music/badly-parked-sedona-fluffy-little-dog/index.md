@@ -25,7 +25,7 @@ Much of the use of the song has been on TikTok, where people used it in the back
 
 Additionally, many people simply downloaded the video once they had made it, hosting it on other platforms to use as an advert for their dog grooming businesses, bypassing the royalties altogether.
 
-For those that want to sit here and complain that AI is killing the music industry - it is merely a nail in the coffin to what streaming services have done to it. Certainly there's no "About a boy" future for me.
+For those that want to sit here and complain that AI is killing the music industry - it is merely a nail in the coffin to what streaming services have already done to it. Certainly there's no "About a Boy" future for me.
 
 ## Lyrics
 
