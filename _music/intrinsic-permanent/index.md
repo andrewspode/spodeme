@@ -22,27 +22,27 @@ Lyrically, I think this was my poor attempt at trying to sound deep and failing 
 
 ## Lyrics
 
-In the mirror, I look  
+In the mirror, I look into his eyes
 And all I see are memories  
-Of the past I left behind  
+Of the past I left behind me  
 A condescending history  
 
 And nothing can hold him back  
 Even this mist that clouds my mind  
-And nothing can hold him back  
+Yeah nothing can hold him back  
 I'm just a walking time machine  
 
-Those scars that never heal  
+Those scars that never seem to heal  
 Holding truth and understanding  
-Reminds me of that day  
+Reminds me of those days  
 Every morning, every evening  
 
 And nothing can hold him back  
-Even this mask that hides my face  
-And nothing can hold him back  
+Not even distance, change or time  
+Yeah nothing can hold him back  
 I'm just a walking time machine  
 
 And nothing can hold him back  
 Even this mist that clouds my mind  
-And nothing can hold him back  
+Yeah nothing can hold him back  
 I'm just a walking time machine  

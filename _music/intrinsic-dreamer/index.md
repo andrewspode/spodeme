@@ -34,12 +34,17 @@ If only she was just a little more keen.
 Take me back, come on let me dream.  
 In my private world, of make believe.  
 The cold awakening is too much for me  
-But in my private world, I can make believe.  
+But in my private world, of make believe...  
 
 This mirage is built on fiction. but it feels so true to me  
 A place where I escape, enjoy my fantasies  
-When I'm stranded in the real world, there's not a lot I can do  
+But when I'm stranded in the real world, there's not a lot I can do  
 When I try to talk, I feel so tongue tied.  
+
+Take me back, come on let me dream.  
+In my private world, of make believe.  
+The cold awakening is too much for me  
+But in my private world, of make believe...  
 
 I made this world, to do you no harm  
 I made this world, to find the girl  
