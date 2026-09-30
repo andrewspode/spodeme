@@ -8,7 +8,7 @@ permalink: /articles/
   <div class="article-preview">
     {% if article.image %}
       <a href="{{ article.url }}">
-        <img src="{{ article.image }}" alt="{{ article.title }}" class="article-thumbnail">
+        <img src="{{ article.image }}" alt="{{ article.title | escape }}" class="article-thumbnail">
       </a>
     {% endif %}
     <div class="article-content">
