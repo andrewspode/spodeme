@@ -9,11 +9,13 @@ tags: [Reverse Engineering, Firmware, OpenRISC, Ghidra, Doom, Embedded]
 
 ![Doom running on a children's camera](doom-running-on-camera.jpg)
 
-This project is the very definition of WBIC (Why Because I Can). What started as "I wonder what firmware this runs?" ended up as the reverse engineering of an entirely undocumented SoC, an SDK, a local emulator, a custom compiler and a fully ported version of Doom that runs on a camera with just 891K of RAM to play with - whilst it still works as a camera.
+This project is the very definition of WBIC (Why Because I Can). What started as "I wonder what firmware this runs?" ended up as the reverse engineering of an entirely undocumented SoC, building an SDK, a local emulator, a custom compiler and a fully ported version of Doom that runs on a camera with **just 891K of RAM** to play with - whilst it still works as a camera.
 
 To be clear, this isn't Doom for the sake of Doom either. The controls are mapped well enough that you can actually play it, all the sounds work, there's chiptune music, you can save and load your game, and it runs at around 30fps.
 
-Everything we built is on [GitHub](https://github.com/andrewspode/hx3302b-x9s-camera) - the documentation, the tools, the SDK, the compiler patches and the Doom port. This article is the story of how we got there; the repo is what we ended up with.
+Has this been done before? It would be easier to ask what Doom *hasn't* been ported to, but the only two examples I can find (which stupidly I looked for *after* I had finished...) are [this Russian video](https://youtu.be/fcUInR3Cl8g), where the chip (a Spreadtrum SC6531) has 4-8MB of RAM and he doesn't disclose anything about how it was done, and [this LGR video](https://www.youtube.com/watch?v=7gCZZkBATSc), where it's basically a full computer, again with plenty of RAM and a full SDK for developing the software. This was a far more significant challenge.
+
+I chose to fully document everything on [GitHub](https://github.com/andrewspode/hx3302b-x9s-camera): how the firmware works, a tool to dump your own over USB, the SDK, the compiler patches and the Doom port. So you can do this yourself, or take the same techniques and apply them to something similar. This article is the story of how we got there; the repo is how you can get there too.
 
 ## The Camera
 
