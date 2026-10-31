@@ -23,7 +23,7 @@ I also spent quite a bit of time on the controls, with a large number of setting
 
 I dislike adverts and always-online games, so I went with a shareware model - free to play with occasional upgrade prompts for £1.99. Finding the balance between encouragement and annoyance will need tweaking over time.
 
-Shareware isn't the only retro influence. No Internet means only a local score board and no barrage of micro-transaction offers and other distractions. I went for a synthwave sound track _(generated using AI, not me this time)_ and took inspiration from Tron for the aesthetics.
+Shareware isn't the only retro influence. No internet means only a local score board and no barrage of micro-transaction offers and other distractions. I went for a synthwave sound track _(generated using AI, not me this time)_ and took inspiration from Tron for the aesthetics.
 
 I'm really happy with the outcome for my first game, and it's going to be an interesting journey seeing how the market reacts (or doesn't). Huge thanks to my friends and family for helping me test it along the way.
 
