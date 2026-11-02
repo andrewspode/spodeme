@@ -95,14 +95,17 @@ Still writing assembly at this point, we wrote a series of small programs and be
 
 Once the results were in, we finally knew what we were working with:
 
-- A CPU doing around 82 million simple instructions a second
-- 2MB of RAM (the working memory, on the main chip), of which just 891K was free for our own use. The CPU could read it at around 127MB/s while the data sat in its small cache, and about 59MB/s once it didn't. Writes fell from 164MB/s to 37MB/s in the same way
-- 4MB of flash storage (the chip holding the firmware), which could only be read at around 4.4MB/s. Code that fits in the CPU's instruction cache runs just as fast from flash as from RAM, but code that doesn't was about 18 times slower
-- A 320x240 display with 256 colours, and a palette we could change
+- **CPU:** ~120 MIPS (millions of simple instructions per second) at best, or ~82 if there's a branch every few instructions
+- **L1 cache:** 8KB for instructions and 8KB for data, read and written at ~164MB/s
+- **RAM:** 2MB, read at ~65MB/s and written at ~37MB/s. Just 891K of it was free for our own use
+- **Flash:** 4MB (the chip holding the firmware), read at only ~4.4MB/s. Code that fits in the instruction cache runs as fast from flash as from RAM, but code that doesn't runs about 18 times slower
+- **Display:** 320x240 with 256 colours, and a palette we could change
 
-Those numbers don't mean much on their own, so what does that look like in real terms? A 486 manages roughly one simple instruction per clock, so a 66MHz DX2 does about 66 million of them a second and a 100MHz DX4 about 100 million. Our camera sits right between the two. (A fair warning, this is a peak speed for simple instructions rather than a proper benchmark score, and real programs run slower on everything, but it's close enough for a comparison.) The RAM is a different story. The main memory in a typical 486 managed somewhere around 15 to 30MB/s from what I can find, so the camera's is considerably quicker, and closer to what you'd expect from an early Pentium. In other words, we were looking at something like a decent 486 with a surprising amount of memory bandwidth - and with less than 1MB of RAM to spend.
+Although not directly comparable, that comes out similar to a 486 DX4/100, which manages roughly 100 MIPS, and the memory speed is close to what you'd expect from an early Pentium.
 
-At that point I was questioning what my end goal with this device was at all. But looking at those numbers, I snorted and posed the question - do you think we could run Doom? The processor looked capable, because Doom came out in 1993 and ran happily on 486s. The memory was another matter. The original Doom's system requirements asked for 4MB of RAM. We had half that, and most of it was already in use.
+In other words, we were looking at something like a fast 486 with the memory speed of a Pentium - and with less than 1MB of RAM to spend.
+
+At that point I was questioning what my end goal with this device was at all. But looking at those numbers, I snorted and posed the question - do you think we could run Doom? The specs looked very similar to machines that ran it happily at the time, just without the full 4MB of RAM it required. We had half that, and most of it was already in use.
 
 ## Porting Doom
 
