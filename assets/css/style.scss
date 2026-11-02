@@ -1,12 +1,53 @@
 ---
 ---
 
-$background: #0a1118;
-$text: #b8c5d9;
-$header-color: #c5d5e8;
-$primary-blue: #4b9fff;
-$text-muted: #8b9bb2;
-$code-background: darken($background, 2%);
+// Colours are CSS custom properties so they can follow the visitor's system theme.
+// Dark is the default; the light set applies when the system prefers light.
+:root {
+  --bg: #0a1118;
+  --sidebar-bg: #070d12;
+  --code-bg: #080e14;
+  --text: #b8c5d9;
+  --header-color: #c5d5e8;
+  --primary-blue: #4b9fff;
+  --text-muted: #8b9bb2;
+  --overlay-weak: rgba(255, 255, 255, 0.05);
+  --overlay-border: rgba(255, 255, 255, 0.1);
+  --logo-border: transparent;
+  --show-sun: block;
+  --show-moon: none;
+  color-scheme: dark;
+}
+
+@mixin light-theme {
+  --bg: #ffffff;
+  --sidebar-bg: #f1f4f8;
+  --code-bg: #f4f6f9;
+  --text: #25395a;
+  --header-color: #0f2a52;
+  --primary-blue: #1a62c9;
+  --text-muted: #5a6f8c;
+  --overlay-weak: rgba(0, 0, 0, 0.04);
+  --overlay-border: rgba(0, 0, 0, 0.12);
+  --logo-border: var(--text-muted);
+  --show-sun: none;
+  --show-moon: block;
+  color-scheme: light;
+}
+
+// Follow the system unless the visitor has picked a theme with the toggle (data-theme on <html>).
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) { @include light-theme; }
+}
+
+:root[data-theme="light"] { @include light-theme; }
+
+$background: var(--bg);
+$text: var(--text);
+$header-color: var(--header-color);
+$primary-blue: var(--primary-blue);
+$text-muted: var(--text-muted);
+$code-background: var(--code-bg);
 
 $sidebar-width: 200px;
 $content-max-width: 800px;
@@ -36,11 +77,12 @@ a {
 }
 
 .sidebar {
-  background: darken($background, 3%);
+  background: var(--sidebar-bg);
   padding: ($spacing * 0.75) ($spacing * 0.75) ($spacing * 0.75);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: $spacing;
+  gap: $spacing * 0.5 $spacing;
 
   .site-identity {
     flex-shrink: 0;
@@ -49,7 +91,10 @@ a {
       margin: 0;
 
       img {
-        max-width: 80px;
+        max-width: 54px;
+        box-sizing: border-box;
+        border: 1px solid var(--logo-border);
+        border-radius: 50%;
         height: auto;
         margin: 0;
         display: block;
@@ -58,17 +103,74 @@ a {
   }
 
   nav {
-    flex: 1;
+    flex-basis: 100%;
+    order: 3;
+
     ul {
       list-style: none;
-      padding: 0 $spacing;
+      padding: 0;
       margin: 0;
       display: flex;
-      gap: $spacing * 0.75;
-      justify-content: center;
-      flex-wrap: wrap;
+      flex-direction: column;
+      gap: $spacing * 0.5;
+      align-items: flex-end;
     }
   }
+
+  // Without JavaScript the menu stays open, since the burger could not close it.
+  .js & nav { display: none; }
+  .js &.nav-open nav { display: block; }
+
+  .controls {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: $spacing * 0.5;
+    order: 2;
+  }
+
+  .icon-button {
+    background: none;
+    padding: 0.6rem;
+    color: $header-color;
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 50%;
+    border: 1px solid var(--text-muted);
+    -webkit-tap-highlight-color: transparent;
+
+    &:focus:not(:focus-visible) { outline: none; }
+    &:focus-visible { outline: 2px solid $primary-blue; outline-offset: 2px; }
+
+    // Only where a real pointer exists; on touch screens :hover sticks after a tap.
+    @media (hover: hover) {
+      &:hover {
+        color: $primary-blue;
+        border-color: $primary-blue;
+      }
+    }
+
+    svg {
+      width: 32px;
+      height: 32px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  }
+
+  .theme-toggle {
+    .icon-sun { display: var(--show-sun); }
+    .icon-moon { display: var(--show-moon); }
+
+    // Text labels are for the desktop sidebar only.
+    .label-light, .label-dark { display: none; }
+  }
+
+  .menu-toggle { display: none; }
+  .js & .menu-toggle { display: block; }
 }
 
 main {
@@ -86,7 +188,7 @@ blockquote {
   border-left: 3px solid $primary-blue;
   margin: $spacing 0;
   padding: ($spacing * 0.5) $spacing;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--overlay-weak);
   border-radius: 4px;
 }
 
@@ -94,7 +196,7 @@ pre {
   background: $code-background;
   padding: $spacing;
   border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--overlay-border);
   overflow-x: auto;
   
   code {
@@ -143,7 +245,7 @@ article {
 .article-preview {
   margin-bottom: $spacing * 2;
   padding-bottom: $spacing * 2;
-  border-bottom: 1px solid rgba($text-muted, 0.2);
+  border-bottom: 1px solid color-mix(in srgb, $text-muted 20%, transparent);
 
   &:last-child {
     border-bottom: none;
@@ -193,7 +295,7 @@ article {
 
   .tag {
     display: inline-block;
-    background: rgba($primary-blue, 0.1);
+    background: color-mix(in srgb, $primary-blue 10%, transparent);
     color: $primary-blue;
     padding: 0.2em 0.8em;
     border-radius: 3px;
@@ -202,7 +304,7 @@ article {
     cursor: default;
 
     &:hover {
-      background: rgba($primary-blue, 0.2);
+      background: color-mix(in srgb, $primary-blue 20%, transparent);
     }
   }
 }
@@ -210,7 +312,7 @@ article {
 .article-separator, hr {
   border: 0;
   height: 1px;
-  background: rgba($text-muted, 0.2);
+  background: color-mix(in srgb, $text-muted 20%, transparent);
   margin: $spacing 0;
 }
 
@@ -239,7 +341,11 @@ article {
     height: 100vh;
     overflow-y: auto;
     padding: $spacing $sidebar-padding 0;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 0;
 
     .site-identity {
       text-align: center;
@@ -252,15 +358,41 @@ article {
 
     nav {
       margin-top: $spacing * 0.75;
+      flex-basis: auto;
+      order: 2;
 
-      ul {
-        flex-direction: column;
-        gap: $spacing * 0.5;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-      }
+      ul { align-items: center; }
     }
+
+    .js & nav { display: block; }
+
+    .controls {
+      order: 3;
+      margin: ($spacing * 0.5) 0 0;
+      justify-content: center;
+    }
+
+    // On desktop the toggle is a text link like the rest of the menu.
+    .theme-toggle {
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      font: inherit;
+      color: $primary-blue;
+      line-height: inherit;
+
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4em;
+
+      svg { width: 1em; height: 1em; }
+      .label-light { display: var(--show-sun); }
+      .label-dark { display: var(--show-moon); }
+
+      &:hover { text-decoration: underline; }
+    }
+
+    .js & .menu-toggle { display: none; }
   }
   
   main {
