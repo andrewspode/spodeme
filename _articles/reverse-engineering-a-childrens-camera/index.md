@@ -96,23 +96,13 @@ Still writing assembly at this point, we wrote a series of small programs and be
 Once the results were in, we finally knew what we were working with:
 
 - A CPU doing around 82 million simple instructions a second
-- 2MB of RAM (the working memory, on the main chip), of which just 891K was free for our own use
-- 4MB of flash storage (the chip holding the firmware)
+- 2MB of RAM (the working memory, on the main chip), of which just 891K was free for our own use. The CPU could read it at around 127MB/s while the data sat in its small cache, and about 59MB/s once it didn't. Writes fell from 164MB/s to 37MB/s in the same way
+- 4MB of flash storage (the chip holding the firmware), which could only be read at around 4.4MB/s. Code that fits in the CPU's instruction cache runs just as fast from flash as from RAM, but code that doesn't was about 18 times slower
 - A 320x240 display with 256 colours, and a palette we could change
 
-At that point I was questioning what my end goal with this device was at all. But looking at those numbers, I snorted and posed the question - do you think we could run Doom? The original Doom's system requirements asked for 4MB of RAM. We had half that, and most of it was already in use.
+Those numbers don't mean much on their own, so what does that look like in real terms? A 486 manages roughly one simple instruction per clock, so a 66MHz DX2 does about 66 million of them a second and a 100MHz DX4 about 100 million. Our camera sits right between the two. (A fair warning, this is a peak speed for simple instructions rather than a proper benchmark score, and real programs run slower on everything, but it's close enough for a comparison.) The RAM is a different story. The main memory in a typical 486 managed somewhere around 15 to 30MB/s from what I can find, so the camera's is considerably quicker, and closer to what you'd expect from an early Pentium. In other words, we were looking at something like a decent 486 with a surprising amount of memory bandwidth - and with less than 1MB of RAM to spend.
 
-## Compiling Our Own Code
-
-I haven't gone into too much technical detail here, as we have exhaustive documentation in the [GitHub repo](https://github.com/andrewspode/hx3302b-x9s-camera), but this camera uses an [OpenRISC](https://en.wikipedia.org/wiki/OpenRISC) processor with a couple of small non-standard differences - it's [little-endian](https://en.wikipedia.org/wiki/Endianness), which is unusual for OpenRISC, and it doesn't use the usual [branch delay slots](https://en.wikipedia.org/wiki/Delay_slot).
-
-To write code in something other than assembly, we needed a compiler that could speak the same language, and we couldn't find anything that did. There was an old branch of GCC that did some of what we needed, but it was abandoned and didn't do it all. So we took the mainline GCC and binutils and wrote our own patches. (I'd send them upstream as a PR, but [GCC](https://gcc.gnu.org/ai-policy.html) and binutils both have a no-LLM policy at the moment, so that's off the table. The patches are in the repo if you need them.)
-
-In the process we also wrote a CPU emulator that follows the same rules, so that we could compile code and run it on the emulator to make sure it worked before going to the effort of flashing it to the device. That saved us a lot of back and forth - we could catch plenty of mistakes at the desk, instead of going through the whole routine of flashing and testing on the camera every time something was wrong.
-
-Then we replaced one of the games in the games menu with a small program that chainloads a compiled binary from the SD card. That was a big step forward, because from then on we only had to copy a new binary to the SD card to test a change, instead of reflashing the camera every time. It became the start of our very own SDK.
-
-There's no debugger and no serial port, so we couldn't get any real-time data. Our only option was to log to a file on the SD card as we went. That meant a lot of camera restarts and cables being pulled in and out, and even with AI assistance it was a slow way of working.
+At that point I was questioning what my end goal with this device was at all. But looking at those numbers, I snorted and posed the question - do you think we could run Doom? The processor looked capable, because Doom came out in 1993 and ran happily on 486s. The memory was another matter. The original Doom's system requirements asked for 4MB of RAM. We had half that, and most of it was already in use.
 
 ## Porting Doom
 
